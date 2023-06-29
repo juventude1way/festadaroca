@@ -1,0 +1,121 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-image: url("https://github.com/juventude1way/festadaroca/blob/main/img/upwk61915746-wikimedia-image.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo {
+  width: 120px;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 90vw;
+}
+
+.primeira-parte{
+width: calc(90vw - 100px);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.titulo{
+  height: 50vh;
+  width: 30vw;
+  background-image: url("https://github.com/juventude1way/festadaroca/blob/main/img/texto.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition:all 0.3s ease;
+}
+
+.descricao{
+  text-align: left;
+  width: 40%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-left: solid 3px white;
+  padding-left: 15px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn{
+  font-family:  'Outfit', sans-serif;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  cursor: pointer;
+  
+
+}
+
+.fogueira{
+width: 20vw;
+}
+
+.designer_btn{
+  background-color: rgba(106, 106, 106, 0);
+  color: rgb(255, 255, 0);
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+.designer_btn:hover {
+  box-shadow: rgba(255, 255, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.influencer_btn{
+  background-color: rgba(106, 106, 106, 0);
+  color: rgb(255, 162, 0);
+  border: 2px solid rgb(255, 162, 0);
+  border-radius: 10px;
+}
+
+.influencer_btn:hover{
+  box-shadow: rgba(255, 162, 0, 0.2) 0px 7px 29px 0px;
+}
+
+
+.titulo_redes{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 50px;
+}
+
+.redes_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.redes_div img{
+  width: 50px;
+}
+
+.titulo:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
